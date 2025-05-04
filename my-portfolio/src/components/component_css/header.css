@@ -6,10 +6,11 @@
 }
 .header-right {
     display: flex;
+    align-items: center;
 }
 .header p {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .header p:hover {
     cursor:default;
@@ -17,4 +18,11 @@
 .header-right p:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+.header-right img:hover {
+    cursor: pointer;
+}
+.header-right img {
+    margin-left: 10px;
+    margin-right: 10px;
 }

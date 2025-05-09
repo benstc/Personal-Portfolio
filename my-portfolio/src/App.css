@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

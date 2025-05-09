@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "title": "Workout Tracking Web App",
+            "imgName": "workout-tracker.png",
+            "description": "Full-Stack React web application to track and view fitness progress"
+        },
+        {
+            "title": "Earthquake Data Visualization",
+            "imgName": "earthquake.png",
+            "description": "3D visualization of real-world geographic data using TypeScript"
+        }
+    ]
+}

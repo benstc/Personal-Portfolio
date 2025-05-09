@@ -10,11 +10,16 @@ export default function ProjectsPage() {
     return (
         <div>
             <Header />
-            <h1 className="page-title">Projects</h1>
+            <h1 className="page-title">My Projects</h1>
             <div className="projects-page">
                 <div className="project-items-container">
                     {projects.map((project, index) => (
-                        <ProjectItem title={project.title} imgName={project.imgName} description={project.description}/>
+                        <ProjectItem 
+                        title={project.title} 
+                        imgName={project.imgName} 
+                        description={project.description}
+                        link={project.link}
+                        />
                     ))}
                 </div>
             </div>

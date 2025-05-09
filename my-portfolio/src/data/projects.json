@@ -3,12 +3,14 @@
         {
             "title": "Workout Tracking Web App",
             "imgName": "workout-tracker.png",
-            "description": "Full-Stack React web application to track and view fitness progress"
+            "description": "Full-Stack React web application to track and view fitness progress",
+            "link": "https://github.com/benstc/Workout-Tracking-App"
         },
         {
             "title": "Earthquake Data Visualization",
             "imgName": "earthquake.png",
-            "description": "3D visualization of real-world geographic data using TypeScript"
+            "description": "3D visualization of real-world geographic data using TypeScript",
+            "link": "https://csci-4611-fall-2024.github.io/assignment-3-benstc/"
         }
     ]
 }

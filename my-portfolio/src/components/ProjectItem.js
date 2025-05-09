@@ -1,7 +1,10 @@
 
-export default function ProjectItem({ title, imgName, description }) {
+export default function ProjectItem({ title, imgName, description, link }) {
+    function handleClick() {
+        window.open(link, '_blank')
+    }
     return (
-        <div className="project-item">
+        <div onClick={handleClick} className="project-item">
             <div>
                 <p className="title">{title}</p>
                 <p>{description}</p>
